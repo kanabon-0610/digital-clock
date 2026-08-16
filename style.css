@@ -71,3 +71,17 @@ option {
   background-color: var(--select-color);
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  #clock {
+    font-size: 60px;
+  }
+
+  #today {
+    font-size: 15px;
+  }
+
+  #container {
+    height: 85vh;
+  }
+}

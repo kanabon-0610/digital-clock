@@ -30,7 +30,7 @@ updateClock();
 
 // テーマカラーの設定、保存・ロード
 const saveData = localStorage.getItem("theme");
-theme.value = saveData;
+theme.value = saveData || "system";
 
 const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
 
