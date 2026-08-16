@@ -63,5 +63,3 @@ systemTheme.addEventListener("change", function () {
 });
 
 applyTheme();
-
-console.log("18:40更新");
